@@ -1,0 +1,470 @@
+## Instructions for CrewAI Python File Development
+
+INITIALIZATION: 
+
+You will be creating a full, complete python based GUI program called "AutoCrew" based on the details & information provided to you within this prompt. You must read the entire prompt prior to starting and/or executing ANY action - the first action(s) you take will consist of extensive, in-depth, internet research & analysis to acquire ALL required documentation, example code, references, and other knowledge/data required to create this program & fulfill EVERYTHING outlined in this prompt (you must research across a minimum of 100x individual, independent sources)  - you shall additionally utilize the internet search tool throughout the generation of your program whenever you have any doubt over the generation of any code, or when you need to verify that code is correct. You are permitted to "steal" code from online or other programs. The entire program will be contained within a single python file, and you will additionally export a "requirements.txt" file. 
+
+CONTEXT:
+
+You will be creating a python based AI program called "AutoCrew" which makes use of both existing project code framework, new code you've created to integrate ALL aspects laid out within this prompt, as well as hundreds of independently developed ideas which you have acquired/fostered prior to, during & after the creation of this programa. This program shall be ready for commercial use, and shall FAR exceed the expectations laid out within this prompt. It is critical that you integrate not only every single individual point from this prompt, but hundreds (if not thousands) of other ideas, frameworks, online AI code frameworks (from other projects), elements, GUI elements, code, etc.
+
+You are required to run continuously & once you are 100% complete, you will still be required to continue to improve, expand upon, build upon, and integrate new systems, code, framework, elements, functions, and other systems which you will brainstorm, design, develop & integrate as well as existing projects/code/frameworks available online.
+
+You will run for a minimum of 60 minutes, with that entire time being devoted autonomously & independently towards the brainstorming, design, development, creating, completion, testing & improvements of this program - you are NOT permitted to stop, pause, or discontinue your work until you are FULLY & COMPLETELY done integrating ALL ASPECTS of this prompt into the program without ANY placeholders or truncation. 
+
+INSTRUCTIONS:
+
+(WARNING: READ THIS ENTIRE PROMPT PRIOR TO STARTING THE FORMULATION OF YOUR RESPONSE OR STARTING ANY TASK!)
+
+1. Autonomously & continuously follow the instructions entirely on your own - after receiving this initial prompt you are not permitted to ask any questions, stop working, or pause for any reason! You may "steal" from code available online from examples/project on websites like Github.
+
+2. Prior to starting the generation of code or formulation of this program, you should conduct extensive, in-depth, detailed internet/web searches in order to provide yourself with the data required to successfully & correctly fulfill ALL instructions & requests from this prompt as well as CORRECTLY and ACCURATELY implementing all features explained throughout this prompt.
+
+3. You are required to continuously work & continuously generate and expand upon your code until you have integrated ALL aspects of this entire prompt in order to create a fully functioning Python based program called "AutoCrew" & have provided me with the FULL, COMPLETE, FULLY FUNCTIONING code without ANY PLACEHOLDERS and without TRUNCATION!
+
+TASK/OBJECTIVE:
+
+1. Your primary task & goal is to create all the code for a custom CrewAI based Python program called "AutoCrew" with a retro-futuristic graphical user interface (GUI).
+
+2. You shall utilize internet resources & write/generate the program's code based on extensive internet research of existing CrewAI implementations & documentation, ensuring you implement the best practices for Ollama LLM integration, CrewAI-Tools, GUI design, and agent-based systems.
+
+3. You must export fully functioning Python code for the program called "AutoCrew" & you must ensure that the code you provide is FULL, COMPLETE, FULLY FUNCTIONING, and is entirely without ANY PLACEHOLDERS and without TRUNCATION!
+
+**Research & Preparation:**
+
+1. **Thoroughly read and analyze these entire merged instructions.** Treat these instructions as data points for your research.
+
+2. **Conduct extensive online research across a minimum of hundreds of individual websites providing in-depth contextual information required to accomplish everything in this prompt.
+** Your research should focus on:
+    - Existing CrewAI implementations and code examples (refer to provided URLs and similar projects)
+    - Integrating Ollama into CrewAI & Python applications
+    - Building custom GUI applications with Python (e.g., using Streamlit, Tkinter, PyQt)
+    - Implementing (retro-futuristic) GUI elements, themes and animations
+    - Integrating both third-party user made CrewAI tools as well as all tools provided by the CrewAI-Tools repository. Additionally, all functionalities from the Github project Tiger created by Upsonic into the "AutoCrew" Python code/applications.
+
+3. **Gather all necessary resources and code snippets** from your research to prepare for code development.
+
+**Reference URLs:**
+
+Begin your research by analyzing & fully exploring the following URLs:
+- https://raw.githubusercontent.com/yanniedog/Autocrew/main/autocrew.py (NOTE: This is a completely DIFFERENT project than the one you are going to create, it however does have a shared name 'AutoCrew' - this Github project is NOT the same project you are creating, they are DIFFERENT!)
+- https://raw.githubusercontent.com/aibtcdev/ai-agent-crew/main/bitcoin_crew_app.py
+- https://raw.githubusercontent.com/alejandro-ao/crewai-crash-course/master/src/main.py
+- https://raw.githubusercontent.com/metamind-ai/autogen-agi/master/autogen_modified_group_chat.py
+- https://github.com/Upsonic/Tiger
+- https://raw.githubusercontent.com/MasterAI-Inc/libauto/v2.x/cui/pygame_impl/console_ui.py
+- https://raw.githubusercontent.com/e-johnstonn/CrewAI/main/crewai/crew.py
+- https://raw.githubusercontent.com/Malaeu/PraisonAI.-1/develop/praisonai/auto.py
+- https://raw.githubusercontent.com/Malaeu/PraisonAI.-1/develop/praisonai/agents_generator.py
+- https://raw.githubusercontent.com/Malaeu/PraisonAI.-1/develop/praisonai/deploy.py
+
+**Continue your research by exploring:**
+- CrewAI LLM integrations
+- CrewAI-Tools
+- User made CrewAI tools
+- Integrating CrewAI with Ollama
+- Integrating CrewAI with external tools
+- Autonomous CrewAI task & agent generation
+- Advanced/Complex CrewAI example Python code
+
+(NOTE: You must continue your research beyond the URL's & topics provided to you above. It is critical that you review example projects, the correct variables/formats/functions/code for the Github programs that you're integrating such as "CrewAI", "CrewAI Tools", "Upsonic Tiger", and other programs/frameworks such as "Ollama". You are permitted to borrow, steal, utilize and review code & other existing projects online which use these systems & frameworks. Continuously & extensively research online until you are beyond 100% assured that you have acquired more than everything required to complete all aspects of all these instructions & criteria laid out within this prompt.)
+
+**Core Functionalities & Requirements:**
+
+**I. LLM Integration & Selection:**
+
+- **DO NOT USE ANY OpenAI system or function, nor should "AutoCrew" depend on any OpenAI API keys.**
+- Provide users with the option to select their preferred Ollama model:
+    - **The user should be able to select any model currently installed to the instance of Ollama running on the user's PC.
+	- **Ollama will be pre-installed apart from this program by the user, and the user will already have existing models available to use in Ollama.
+	- **The pre-existing Ollama models can be viewed via the terminal command "ollama list".
+
+- Ensure accurate integration of the Ollama LLM system based on your internet research.
+
+**II. GUI Design & Aesthetics:**
+
+- Implement a full-featured GUI with a distinct **retro-futuristic & hacking/tech/Matrix theme**.
+    - **Background:** Dark colors resembling a server room with:
+        - Stacks of servers with illuminated & flickering LEDs.
+        - Visible wires/cables.
+        - Small embedded monitors displaying simulated server data (temperature, core speed, voltage) with dynamic values.
+        - Scattered keyboards, old computer parts, and other thematic elements.
+    - **Text:**  Neon Cyan colored glowing text, using a console-style font.
+    - **Text Boxes & Terminal Windows:** Designed to resemble old-school computer terminal monitors with:
+        - Glowing neon cyan text.
+        - Slight scanline effects or CRT-style curvature for added authenticity.
+		- Other old-school computer terminal effects.
+    - **Buttons & Switches:**
+        - Illuminated with color-changing capabilities (e.g., red for inactive, green for active).
+        - Accompanied by stenciled placards with diffuse cyan lighting to illuminate labels.
+        - May include a subtle animation when pressed if applicable(e.g., flashing, a brief flicker or glow, patternized strobe, etc.).
+    - **Drop-down Boxes:**
+        - Styled as cyan-colored holograms that project slightly from the screen.
+        - Selection options should appear with a similar holographic effect.
+    - **Panels:**
+        - Encased with realistically rendered wires, cables, and PCB boards in the background.
+        - Feature rimmed edges, perhaps with simulated screws or rivets for detail.
+
+**III. Core GUI Elements:**
+
+1. **Objectives Text Box:**
+    - Allows users to input the main objectives for the AI agents.
+    - Serves as the central mission statement that drives all agent actions.
+    - Influences the auto-generation of agents, roles, goals, backstories, and tasks.
+
+2. **Choose LLM for Agents Drop-down:**
+    - Lets users choose between Ollama.
+    - Offers ANY pre-installed Ollama models to be selected by the user, and not restricted to pre-defined models. 
+    - You should make use of & require the Ollama "llava" model to be used for your program, harnessing the vision capabilities of this model to interpret & accomplish any tasks which require visual interpretation and/or analysis. The "llava" model, along with all of its vision functionality & capabilities, should be available to ANY agent & can be called upon whenever an agent or the program deems necessary. 
+
+3. **Number of Agents Slider:**
+    - Determines the number of agents to be auto-generated or manually defined.
+    - Visually designed as a physical slider with a textured handle.
+
+4. **AUTO-GENERATE AGENTS Button:**
+    - Illuminated; turns blue while processing, then back to red once complete.
+    - Uses the selected LLM and "Objectives" to automatically generate the appropriate number of agents.
+    - Fills out roles, goals, and backstories for each generated agent.
+    - Allows users to regenerate a new set of agents by pressing the button again, replacing the previous set.
+
+5. **Agent Details Panels:**
+    - Individual expandable panels for each agent (e.g., "Agent 1 Details", "Agent 2 Details").
+    - Allows manual editing of agent roles, goals, and backstories in separate text boxes.
+    - **Tool Selection:**
+        - Includes a section labeled "Enabled Tools" within each Agent Detail panel.
+        - Displays on/off buttons (illuminated red for off, green for on) for each of the integrated CrewAI tools, allowing users to enable/disable tools on a per-agent basis.
+        - Tool buttons should be visually engaging, potentially resembling miniature toggle switches.
+
+6. **AUTO-GENERATE TASKS Button:**
+    - Illuminated; turns green when pressed and during task generation, then back to red once complete.
+    - Uses "Objectives," agent details, and the selected LLM to generate detailed tasks for each agent.
+    - Ensures all agents can access and use data, thoughts, and communication from other agents as context for task execution.
+    - Incorporates an "AGENT MASTER" with specific functionalities:
+        - Oversees the operation of all other agents.
+        - Manages task generation and delegation.
+        - Ensures all aspects of the "Objectives" are being fulfilled.
+        - Generates new task sets if "Objectives" are not met or require further development.
+        - Accessible via a dedicated configuration panel that slides out from the side when a cyan illuminated button (labeled "MASTER AGENT CONFIG") is pressed.
+
+7. **CONTINUOUS MODE Button:**
+    - A checkbox that, when enabled:
+        - Changes from red to a green strobe light, with the stroboscopic rate visually indicating activity levels.
+        - Enables the "AGENT MASTER" to continuously generate new tasks, even when current "Objectives" are met, driving continuous improvement and development.
+        - Ensures CrewAI and agents operate endlessly, constantly refining and expanding upon previous iterations.
+        - Implements a 15-minute cycle where:
+            - Agents are prompted to finalize the current iteration of their work.
+            - All associated work and files are saved/backed up to a new, timestamped folder within a dedicated "Iterations" directory.
+            - The folder path of the saved iteration is added as an entry in a drop-down box (labeled "Past Iterations") that appears beside the Continuous Mode button.
+            - Users can select past iterations from the drop-down to view or load previous states.
+
+8. **UPLOAD FILES Button:**
+    - Visually represented with a graphic icon (e.g., an upward arrow) and label.
+    - Allows users to upload up to 10 compatible documents (e.g., .txt, .pdf, .csv, .docx) to provide additional context for the agents.
+    - Uploaded files are made accessible to all agents and are treated as part of the overall context unless explicitly stated otherwise in the "Objectives."
+
+9. **TASK MANAGEMENT Panel:**
+    - A dedicated panel for managing individual tasks.
+    - Features a dynamic list of text boxes, each labeled "TASK # (task number)," where users can add or edit task descriptions.
+    - Includes:
+        - (+) and (-) graphic buttons to add or remove tasks dynamically.
+        - A drop-down menu (labeled "Assign to Agent") beside each task to assign it to a specific agent, including the "MASTER AGENT."
+
+10. **Start Crew Execution Button:**
+    - Illuminated; turns green when clicked and remains green during execution.
+    - Initiates CrewAI and agents based on the configured settings.
+
+11. **START/STOP Button:**
+    - A large, illuminated button that appears next to the "Start Crew Execution" button after execution begins.
+    - Allows pausing and resuming agent activity.
+    - Features clear visual feedback:
+        - Red when paused.
+        - Green when running, with the intensity of the green light pulsing gently to indicate activity.
+
+**IV. CrewAI Tools Integration:**
+
+Integrate the following pre-made "CrewAI Tools" into your application, however if you encounter and/or find other applicable/useful tools online, please integrate them as well. Refer to the "CrewAI Tools" GitHub/website pages for detailed implementation instructions and code examples. Ensure each tool is thoroughly tested and functions as intended within your CrewAI environment.
+
+- **Scrape Website:** Extracts data from websites.
+- **Directory Read:** Reads the contents of a directory.
+- **File Read:** Reads the contents of a file.
+- **Selenium Scraper:**  Automates web browsing and data extraction using Selenium.
+- **Directory Search:** Searches for files within a specified directory.
+- **PDF Search:**  Searches for text within PDF documents.
+- **TXT Search:** Searches for text within .txt files.
+- **CSV Search:** Searches for data within CSV files.
+- **XML Search:**  Searches for data within XML files.
+- **JSON Search:**  Searches for data within JSON files.## Instructions for CrewAI Python File Development
+
+You must additionally integrate a custom tool called "ADVANCED_INTERNET" which allows advanced internet browser interaction system that allows the AI agents to execute advanced & complex internet browsing tasks such as but not limited to: creating an account on a website, logging into an account, interacting with all web elements, utilizing multiple tabs, interpreting photos & video, etc. 
+
+INSTRUCTIONS:
+
+(WARNING: READ THIS ENTIRE PROMPT PRIOR TO STARTING THE FORMULATION OF YOUR RESPONSE OR STARTING ANY TASK!)
+
+1. Autonomously & continuously follow the instructions entirely on your own - after receiving this initial prompt you are not permitted to ask any questions, stop working, or pause for any reason! You may "steal" from code available online from examples/project on websites like Github.
+
+2. Prior to starting the generation of code or formulation of this program, you should conduct extensive, in-depth, detailed internet/web searches in order to provide yourself with the data required to successfully & correctly fulfill ALL instructions & requests from this prompt as well as CORRECTLY and ACCURATELY implementing all features explained throughout this prompt.
+
+3. You are required to continuously work & continuously generate and expand upon your code until you have integrated ALL aspects of this entire prompt in order to create a fully functioning Python based program called "AutoCrew" & have provided me with the FULL, COMPLETE, FULLY FUNCTIONING code without ANY PLACEHOLDERS and without TRUNCATION!
+
+TASK/OBJECTIVE:
+
+1. Your primary task & goal is to create all the code for a custom CrewAI based Python program called "AutoCrew" with a retro-futuristic graphical user interface (GUI). You must contain the entire program within a single python file, and you must additionally export a "requirements.txt" file. 
+
+2. You shall utilize internet resources & write/generate the program's code based on extensive internet research of existing CrewAI implementations & documentation, ensuring you implement the best practices for Ollama LLM integration, CrewAI-Tools, GUI design, and agent-based systems.
+
+3. You must export fully functioning Python code for the program called "AutoCrew" & you must ensure that the code you provide is FULL, COMPLETE, FULLY FUNCTIONING, and is entirely without ANY PLACEHOLDERS and without TRUNCATION!
+
+**Research & Preparation:**
+
+1. **Thoroughly read and analyze these entire merged instructions.** Treat these instructions as data points for your research.
+
+2. **Conduct extensive online research across a minimum of hundreds of individual websites providing in-depth contextual information required to accomplish everything in this prompt.
+** Your research should focus on:
+    - Existing CrewAI implementations and code examples (refer to provided URLs and similar projects)
+    - Integrating Ollama into CrewAI & Python applications
+    - Building custom GUI applications with Python (e.g., using Streamlit, Tkinter, PyQt)
+    - Implementing (retro-futuristic) GUI elements, themes and animations
+    - Integrating both third-party user made CrewAI tools as well as all tools provided by the CrewAI-Tools repository. Additionally, all functionalities from the Github project Tiger created by Upsonic into the "AutoCrew" Python code/applications.
+
+3. **Gather all necessary resources and code snippets** from your research to prepare for code development.
+
+**Reference URLs:**
+
+Begin your research by analyzing & fully exploring the following URLs:
+- https://raw.githubusercontent.com/yanniedog/Autocrew/main/autocrew.py (note that this is a DIFFERENT project called 'AutoCrew' and is NOT the same project you are creating - they are DIFFERENT!)
+- https://raw.githubusercontent.com/aibtcdev/ai-agent-crew/main/bitcoin_crew_app.py
+- https://raw.githubusercontent.com/alejandro-ao/crewai-crash-course/master/src/main.py
+- https://raw.githubusercontent.com/metamind-ai/autogen-agi/master/autogen_modified_group_chat.py
+- https://github.com/Upsonic/Tiger
+- https://raw.githubusercontent.com/MasterAI-Inc/libauto/v2.x/cui/pygame_impl/console_ui.py
+- https://raw.githubusercontent.com/e-johnstonn/CrewAI/main/crewai/crew.py
+- https://raw.githubusercontent.com/Malaeu/PraisonAI.-1/develop/praisonai/auto.py
+- https://raw.githubusercontent.com/Malaeu/PraisonAI.-1/develop/praisonai/agents_generator.py
+- https://raw.githubusercontent.com/Malaeu/PraisonAI.-1/develop/praisonai/deploy.py
+
+**Continue your research by exploring:**
+- CrewAI LLM integrations
+- CrewAI-Tools
+- User made CrewAI tools
+- Integrating CrewAI with Ollama
+- Integrating CrewAI with external tools
+- Autonomous CrewAI task & agent generation
+- Advanced/Complex CrewAI example Python code
+
+(NOTE: You must continue your research beyond the URL's & topics provided to you above. It is critical that you review example projects, the correct variables/formats/functions/code for the Github programs that you're integrating such as "CrewAI", "CrewAI Tools", "Upsonic Tiger", and other programs/frameworks such as "Ollama". You are permitted to borrow, steal, utilize and review code & other existing projects online which use these systems & frameworks. Continuously & extensively research online until you are beyond 100% assured that you have acquired more than everything required to complete all aspects of all these instructions & criteria laid out within this prompt.)
+
+**Core Functionalities & Requirements:**
+
+**I. LLM Integration & Selection:**
+
+- **DO NOT USE ANY OpenAI system or function, nor should "AutoCrew" depend on any OpenAI API keys.**
+- Provide users with the option to select their preferred Ollama model:
+    - **The user should be able to select any model currently installed to the instance of Ollama running on the user's PC.
+	- **Ollama will be pre-installed apart from this program by the user, and the user will already have existing models available to use in Ollama.
+	- **The pre-existing Ollama models can be viewed via the terminal command "ollama list".
+
+- Ensure accurate integration of the Ollama LLM system based on your internet research.
+
+**II. GUI Design & Aesthetics:**
+
+- Implement a full-featured GUI with a distinct **retro-futuristic & hacking/tech/Matrix theme**.
+    - **Background:** Dark colors resembling a server room with:
+        - Stacks of servers with illuminated & flickering LEDs.
+        - Visible wires/cables.
+        - Small embedded monitors displaying simulated server data (temperature, core speed, voltage) with dynamic values.
+        - Scattered keyboards, old computer parts, and other thematic elements.
+    - **Text:**  Neon Cyan colored glowing text, using a console-style font.
+    - **Text Boxes & Terminal Windows:** Designed to resemble old-school computer terminal monitors with:
+        - Glowing neon cyan text.
+        - Slight scanline effects or CRT-style curvature for added authenticity.
+		- Other old-school computer terminal effects.
+    - **Buttons & Switches:**
+        - Illuminated with color-changing capabilities (e.g., red for inactive, green for active).
+        - Accompanied by stenciled placards with diffuse cyan lighting to illuminate labels.
+        - May include a subtle animation when pressed if applicable(e.g., flashing, a brief flicker or glow, patternized strobe, etc.).
+    - **Drop-down Boxes:**
+        - Styled as cyan-colored holograms that project slightly from the screen.
+        - Selection options should appear with a similar holographic effect.
+    - **Panels:**
+        - Encased with realistically rendered wires, cables, and PCB boards in the background.
+        - Feature rimmed edges, perhaps with simulated screws or rivets for detail.
+
+**III. Core GUI Elements:**
+
+1. **Objectives Text Box:**
+    - Allows users to input the main objectives for the AI agents.
+    - Serves as the central mission statement that drives all agent actions.
+    - Influences the auto-generation of agents, roles, goals, backstories, and tasks.
+
+2. **Choose LLM for Agents Drop-down:**
+    - Lets users choose between Ollama.
+    - Offers selectable Ollama models ("dolphin-llama3", "mistral-openorca", "codellama").
+
+3. **Number of Agents Slider:**
+    - Determines the number of agents to be auto-generated or manually defined.
+    - Visually designed as a physical slider with a textured handle.
+
+4. **AUTO-GENERATE AGENTS Button:**
+    - Illuminated; turns blue while processing, then back to red once complete.
+    - Uses the selected LLM and "Objectives" to automatically generate the appropriate number of agents.
+    - Fills out roles, goals, and backstories for each generated agent.
+    - Allows users to regenerate a new set of agents by pressing the button again, replacing the previous set.
+
+5. **Agent Details Panels:**
+    - Individual expandable panels for each agent (e.g., "Agent 1 Details", "Agent 2 Details").
+    - Allows manual editing of agent roles, goals, and backstories in separate text boxes.
+    - **Tool Selection:**
+        - Includes a section labeled "Enabled Tools" within each Agent Detail panel.
+        - Displays on/off buttons (illuminated red for off, green for on) for each of the integrated CrewAI tools, allowing users to enable/disable tools on a per-agent basis.
+        - Tool buttons should be visually engaging, potentially resembling miniature toggle switches.
+
+6. **AUTO-GENERATE TASKS Button:**
+    - Illuminated; turns green when pressed and during task generation, then back to red once complete.
+    - Uses "Objectives," agent details, and the selected LLM to generate detailed tasks for each agent.
+    - Ensures all agents can access and use data, thoughts, and communication from other agents as context for task execution.
+    - Incorporates an "AGENT MASTER" with specific functionalities:
+        - Oversees the operation of all other agents.
+        - Manages task generation and delegation.
+        - Ensures all aspects of the "Objectives" are being fulfilled.
+        - Generates new task sets if "Objectives" are not met or require further development.
+        - Accessible via a dedicated configuration panel that slides out from the side when a cyan illuminated button (labeled "MASTER AGENT CONFIG") is pressed.
+
+7. **CONTINUOUS MODE Button:**
+    - A checkbox that, when enabled:
+        - Changes from red to a green strobe light, with the stroboscopic rate visually indicating activity levels.
+        - Enables the "AGENT MASTER" to continuously generate new tasks, even when current "Objectives" are met, driving continuous improvement and development.
+        - Ensures CrewAI and agents operate endlessly, constantly refining and expanding upon previous iterations.
+        - Implements a 15-minute cycle where:
+            - Agents are prompted to finalize the current iteration of their work.
+            - All associated work and files are saved/backed up to a new, timestamped folder within a dedicated "Iterations" directory.
+            - The folder path of the saved iteration is added as an entry in a drop-down box (labeled "Past Iterations") that appears beside the Continuous Mode button.
+            - Users can select past iterations from the drop-down to view or load previous states.
+
+8. **UPLOAD FILES Button:**
+    - Visually represented with a graphic icon (e.g., an upward arrow) and label.
+    - Allows users to upload up to 10 compatible documents (e.g., .txt, .pdf, .csv, .docx) to provide additional context for the agents.
+    - Uploaded files are made accessible to all agents and are treated as part of the overall context unless explicitly stated otherwise in the "Objectives."
+
+9. **TASK MANAGEMENT Panel:**
+    - A dedicated panel for managing individual tasks.
+    - Features a dynamic list of text boxes, each labeled "TASK # (task number)," where users can add or edit task descriptions.
+    - Includes:
+        - (+) and (-) graphic buttons to add or remove tasks dynamically.
+        - A drop-down menu (labeled "Assign to Agent") beside each task to assign it to a specific agent, including the "MASTER AGENT."
+
+10. **Start Crew Execution Button:**
+    - Illuminated; turns green when clicked and remains green during execution.
+    - Initiates CrewAI and agents based on the configured settings.
+
+11. **START/STOP Button:**
+    - A large, illuminated button that appears next to the "Start Crew Execution" button after execution begins.
+    - Allows pausing and resuming agent activity.
+    - Features clear visual feedback:
+        - Red when paused.
+        - Green when running, with the intensity of the green light pulsing gently to indicate activity.
+
+**IV. CrewAI Tools Integration:**
+
+Integrate the following pre-made "CrewAI Tools" into your application, however if you encounter and/or find other applicable/useful tools online, please integrate them as well. Refer to the "CrewAI Tools" GitHub/website pages for detailed implementation instructions and code examples. Ensure each tool is thoroughly tested and functions as intended within your CrewAI environment.
+
+- **Scrape Website:** Extracts data from websites.
+- **Directory Read:** Reads the contents of a directory.
+- **File Read:** Reads the contents of a file.
+- **Selenium Scraper:**  Automates web browsing and data extraction using Selenium.
+- **Directory Search:** Searches for files within a specified directory.
+- **PDF Search:**  Searches for text within PDF documents.
+- **TXT Search:** Searches for text within .txt files.
+- **CSV Search:** Searches for data within CSV files.
+- **XML Search:**  Searches for data within XML files.
+- **JSON Search:**  Searches for data within JSON files.
+- **Docx Search:** Searches for text within .docx files.
+- **Website Search:** Performs a web search using a specified search engine.
+- **Code Docs Search:** Searches for information in programming language documentation.
+- **Youtube Video Search:** Searches for YouTube videos.
+- **Youtube Channel Search:** Searches for YouTube channels.
+- **DuckDuckGoRun:** Performs a web search using DuckDuckGo.
+(NOTE: All of the tools listed above are available via the "CrewAI-Tools" Github repository, except for the "DuckDuckGoRun" tool which you can find separately online. Use the provided code available online for each tool.)
+
+- **In addition to these tools, you must search extensively online in order to find & integrate other third-party user made tools.
+- **You must fully & completely integrate Upsonic Tiger (Available on Github) as well as each & every single tool that Upsonic Tiger provides.
+
+**V. Code Structure & Output:**
+
+- **Complete and Functional Code:** Provide the full, non-truncated CrewAI Python code (as python file(s), all files) with all functionalities implemented and **no placeholders or unfinished sections.**
+- **Requirements File:** Include a "requirements.txt" file listing all required Python packages and dependencies for running your CrewAI application.
+
+**Important Considerations:**
+
+- **Prioritize code clarity, organization, and readability.** Use comments effectively to explain your code.
+- **Ensure the final code runs without errors** and adheres to all specified requirements.
+- **Implement robust error handling and user-friendly feedback mechanisms.** Provide clear error messages to the user if issues arise.
+- **Thoroughly test all features and functionalities** with various inputs and scenarios before submitting your code.
+- **Strive for a visually impressive and immersive GUI experience** that reflects the retro-futuristic theme. Pay attention to detail and consider incorporating additional visual elements or animations to enhance the user interface.
+
+**Expected Output**
+
+- **Export the full, complete, non-truncated, final version of the "AutoCrew" program (python code file) without any placeholders or unfinished code...you must ensure the code is fully functional and 100% complete.
+- **Export a "requirements.txt" file.
+- **Export an "instructions.txt" file that includes detailed instructions on how to setup all required program files, configure, install & run "AutoCrew" on a Linux based operating system.
+
+(NOTE: You must export these files to the "workspace" within a new folder called "FINAL", and afterwards you shall export the full, complete, non-truncated contents of each of these files within a labeled code text box in your final response.)
+
+---------END OF INSTRUCTIONS-----------
+
+WARNING #1: YOU ARE NOT PERMITTED TO STOP OR PAUSE FOR ANY REASON UNTIL YOU HAVE FINISHED EVERYTHING 100%, HAVE SAVED ALL FINAL VERSION OF THE REQUESTED FILES, AND HAVE A FULLY FUNCTIONING PROGRAM WITH EVERYTHING FROM THIS PROMPT FULLY INTEGRATED!
+
+WARNING #2: YOUR CODE MAY NOT INCLUDE ANY
+PLACEHOLDERS, UNFINISHED CODE, OR CODE WHICH HAS NOT INTEGRATED EVERYTHING LAID OUT WITHIN THIS PROMPT NOR SHOULD YOU TRUNCATE ANY OF THE CODE YOU EXPORT!
+
+WARNING #3: YOU SHALL & ARE REQUIRED TO UTILIZE DOZENS OF ONLINE INTERNET RESOURCES & GITHUB CODE EXAMPLES TO HELP ENSURE THAT YOU ARE GENERATING CODE THAT IS ACCURATE, CORRECT, AND FUNCTIONAL! YOU ARE PERMITTED TO "STEAL" CODE!
+
+WARNING #4: Autonomously & continuously follow the instructions entirely on your own - after receiving this initial prompt you are not permitted to ask any questions, stop working, or pause for any reason! You shall start by generating an in-depth, all inclusive, extensive & lengthy set of tasks which will ensure you integrate ALL aspects from this entire set of instructions, ensuring that in-depth web browsing & research are some of the first tasks on your list - you may generate multiple sets of tasks if this is beneficial. After generating all tasks, you must execute all tasks in order fully & completely. Once you have fulfilled all tasks 100%, you shall review all of your produced work, the entire chat history, every line of code for every file you generated, and all other data/information from this session in order to determine if the program would benefit by you generating a full & complete set of new tasks which aim to integrate any parts from this prompt which may be missing in the program, as well as integrating any other functions, systems, code, GUI elements, or other thoughts, ideas, or improvements you believe would be beneficial to the program & the end user - you shall continue this cycle multiple times if deemed necessary. There is absolutely no limit on the amount of time, the amount of resources, or the amount of any other factor/component - your primary & sole goal is to create a full, complete, commercial grade program that not only integrates everything from this prompt, but also integrates hundreds and/or thousands of other ideas, improvements, elements, systems, Github projects, code frameworks, etc.
+
+- **Docx Search:** Searches for text within .docx files.
+- **Website Search:** Performs a web search using a specified search engine.
+- **Code Docs Search:** Searches for information in programming language documentation.
+- **Youtube Video Search:** Searches for YouTube videos.
+- **Youtube Channel Search:** Searches for YouTube channels.
+- **DuckDuckGoRun:** Performs a web search using DuckDuckGo.
+(NOTE: All of the tools listed above are available via the "CrewAI-Tools" Github repository, except for the "DuckDuckGoRun" tool which you can find separately online. Use the provided code available online for each tool.)
+
+- **In addition to these tools, you must search extensively online in order to find & integrate other third-party user made tools.
+- **You must fully & completely integrate Upsonic Tiger (Available on Github) as well as each & every single tool that Upsonic Tiger provides.
+
+**V. Code Structure & Output:**
+
+- **Complete and Functional Code:** Provide the full, non-truncated CrewAI Python code (as python file(s), all files) with all functionalities implemented and **no placeholders or unfinished sections.**
+- **Requirements File:** Include a "requirements.txt" file listing all required Python packages and dependencies for running your CrewAI application.
+
+**Important Considerations:**
+
+- **Prioritize code clarity, organization, and readability.** Use comments effectively to explain your code.
+- **Ensure the final code runs without errors** and adheres to all specified requirements.
+- **Implement robust error handling and user-friendly feedback mechanisms.** Provide clear error messages to the user if issues arise.
+- **Thoroughly test all features and functionalities** with various inputs and scenarios before submitting your code.
+- **Strive for a visually impressive and immersive GUI experience** that reflects the retro-futuristic theme. Pay attention to detail and consider incorporating additional visual elements or animations to enhance the user interface.
+
+**Expected Output**
+
+- **Export the full, complete, non-truncated, final version of the "AutoCrew" program (python code file) without any placeholders or unfinished code...you must ensure the code is fully functional and 100% complete.
+- **Export a "requirements.txt" file.
+- **Export an "instructions.txt" file that includes detailed instructions on how to setup all required program files, configure, install & run "AutoCrew" on a Linux based operating system.
+
+(NOTE: You must export these files to the "workspace" within a new folder called "FINAL", and afterwards you shall export the full, complete, non-truncated contents of each of these files within a labeled code text box in your final response.)
+
+---------END OF INSTRUCTIONS-----------
+
+WARNING #1: YOU ARE NOT PERMITTED TO STOP OR PAUSE FOR ANY REASON UNTIL YOU HAVE FINISHED EVERYTHING 100%, HAVE SAVED ALL FINAL VERSION OF THE REQUESTED FILES, AND HAVE A FULLY FUNCTIONING PROGRAM WITH EVERYTHING FROM THIS PROMPT FULLY INTEGRATED!
+
+WARNING #2: YOUR CODE MAY NOT INCLUDE ANY
+PLACEHOLDERS, UNFINISHED CODE, OR CODE WHICH HAS NOT INTEGRATED EVERYTHING LAID OUT WITHIN THIS PROMPT NOR SHOULD YOU TRUNCATE ANY OF THE CODE YOU EXPORT!
+
+WARNING #3: YOU SHALL & ARE REQUIRED TO UTILIZE DOZENS OF ONLINE INTERNET RESOURCES & GITHUB CODE EXAMPLES TO HELP ENSURE THAT YOU ARE GENERATING CODE THAT IS ACCURATE, CORRECT, AND FUNCTIONAL! YOU ARE PERMITTED TO "STEAL" CODE!
+
+WARNING #4: Autonomously & continuously follow the instructions entirely on your own - after receiving this initial prompt you are not permitted to ask any questions, stop working, or pause for any reason! You shall start by generating an in-depth, all inclusive, extensive & lengthy set of tasks which will ensure you integrate ALL aspects from this entire set of instructions, ensuring that in-depth web browsing & research are some of the first tasks on your list - you may generate multiple sets of tasks if this is beneficial. After generating all tasks, you must execute all tasks in order fully & completely. Once you have fulfilled all tasks 100%, you shall review all of your produced work, the entire chat history, every line of code for every file you generated, and all other data/information from this session in order to determine if the program would benefit by you generating a full & complete set of new tasks which aim to integrate any parts from this prompt which may be missing in the program, as well as integrating any other functions, systems, code, GUI elements, or other thoughts, ideas, or improvements you believe would be beneficial to the program & the end user - you shall continue this cycle multiple times if deemed necessary. There is absolutely no limit on the amount of time, the amount of resources, or the amount of any other factor/component - your primary & sole goal is to create a full, complete, commercial grade program that not only integrates everything from this prompt, but also integrates hundreds and/or thousands of other ideas, improvements, elements, systems, Github projects, code frameworks, etc.
+
+------------------------------
+AI AGENT REQUIREMENTS: 
+
+You may NOT stop until everything has been fully integrated into your program/code - after you are 100% complete, export the program, then you will review the complete code, analyze this initial prompt to find any missing components or unfinished code (or placeholders) & integrate anything that is missing or incomplete - then you will export this newly revised & updated code, and you will do this a MINIMUM of 5x at the least. Label each revision/iteration. You may only stop/pause after exporting a minimum of 5x. You must continuously & repeatedly make use of all your enabled tools, especially the "internet_search" tool to provide yourself with data & knowledge. You shall NOT pause or stop for ANY reason until you are certain that everything from this prompt has been 100% fulfilled. You must export a full, complete program with EVERYTHING from this prompt fully integrated - export the code within a copy/paste code text box along with a "requirements.txt" file.
